@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Receipt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eaf9f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .receipt {
+            background-color: #f2fdf7;
+            width: 360px;
+            padding: 8%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .receipt .checkmark {
+            width: 50px;
+            height: 50px;
+            background-color: #0aba66;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 20px;
+            font-size: 24px;
+        }
+        .receipt .amount {
+            font-size: 28px;
+            color: #0a3d62;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .receipt .message {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .receipt .details {
+            font-size: 14px;
+            color: #4c4b4b;
+            line-height: 1.6;
+        }
+        .receipt .details span {
+            /* font-weight: bold; */
+            color: #4c4b4b;
+        }
+        .receipt .footer {
+           margin-top: 5px;
+            font-size: 14px;
+            color: #888;
+        }
+        .receipt .footer img {
+            height: 20px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="receipt">
+        <div class="checkmark">✔</div>
+        <div class="amount">₹ 1000.00</div>
+        <div class="message">Payment Successful!</div>
+        <div class="details">
+            Payment ID: <span>pay_PdlFYQpJ2kSj9O</span><br> <br> 
+            <!-- 30 Dec 2024, 12:15 PM -->
+        </div>
+        <div class="details"> 
+            30 Dec 2024, 12:15 PM
+        </div>
+        <div class="footer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Razorpay_logo.svg" alt="Razorpay Logo">
+        </div>
+    </div>
+</body>
+</html>
