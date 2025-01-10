@@ -1,0 +1,65 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://images.pexels.com/photos/589816/pexels-photo-589816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Main Container for Weather Report */
+  .weather-container {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px 30px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Heading for Weather Information */
+  .weather-container h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for individual weather info */
+  .weather-info p {
+    font-size: 1.2rem;
+    color: #34495e;
+    margin: 10px 0;
+  }
+  
+  /* Styling for labels in weather info */
+  .weather-info strong {
+    color: #2980b9;
+  }
+  
+  /* Styling for the Error Message */
+  .error {
+    font-size: 1.2rem;
+    color: #e74c3c;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Styling for loading message */
+  .loading {
+    font-size: 1.2rem;
+    color: #95a5a6;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
