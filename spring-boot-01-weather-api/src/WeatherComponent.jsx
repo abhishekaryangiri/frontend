@@ -38,3 +38,4 @@ const WeatherComponent = () => {
 };
 
 export default WeatherComponent;
+//weather API
